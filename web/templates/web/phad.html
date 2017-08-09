@@ -1,0 +1,48 @@
+{% extends 'web/bootstrap-skeleton.html' %}
+
+{% block title %} 
+
+Phad Painting - PhadChitrashala - The world of phad paintings
+
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">About
+                        <strong>Phad Paintings</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12">
+                    <ul>
+                    <li class="previous"><a href="{% url 'web:phadmaking' %}">Making Of Phad</a></li>
+                    <li><a href="{% url 'web:phadperfomance' %}">Perfomance of Phad</a></li>
+                    </ul>
+                    
+                    
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="/static/web/img/slide-2.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>The large-scale horizontal paintings on cloth portraying the epic lives of the local hero-gods are popularly known as Phad paintings. These paintings have the mammoth task of representing a complex and a full blown folk epic narrative, which it achieves through a very specific style of representation, filled with figures and pictorial incidents, these paintings form a kind of dramatic backdrop to epic story telling performances.</p>
+                    <p>Since they depict the different episodes, these paintings are customarily opened or unrolled only after sundown, in conjunction with the all night performance. This could be one reason for these paintings to be called Phad. Which means folds in Rajasthani dialect. The word Phad is possibly derived from Sanskrit word patt.  The painters who traditionally engage themselves in the profession of Phad painting are known as Phad painter.</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="/static/web/img/slide-2.jpg" alt="img">
+                </div>
+                <div class="col-md-6"> 
+                    <p>The principal subjects for the paintings are the life of two legendary Rajasthani heroes-Pabuji and Devnarayan ji- who are worshipped as the incarnation of lord Vishnu and Laxman. Each hero-god has a different performer-priest or Bhopa. The repertoire of the bhopas consists of epics of some of the popular local hero-gods such as Pabuji, Devji, Tejaji, Gogaji, Ramdevji.The Phad also depict the lives of Ramdev Ji, Rama, Krishna, Budhha and Mahaveera. The iconography of these forms has evolved in a distinctive way. All Phads, no matter which hero-god they present, have certainly similarities. </p>
+                    <p>Every available inch of the canvas is crowded with figures. Another similarity is flat construction of the pictorial space. While the figures are harmoniously distributed all over the area, the scale of figure depends on the social status of the character they represent and the roles they play in the story.</p>
+                    <p>Another Interesting feature is that the figures in the paintings do not face the audience; rather, they face each other. These paintings are very wide to accommodate the numerous episodes of the complex stories.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+{% endblock %}
